@@ -1,0 +1,45 @@
+
+:root {
+  --fog-900: #050b13;
+  --fog-800: #0f1724;
+  --fog-700: #1b2636;
+  --mist-500: #627d98;
+  --mist-400: #82a3c5;
+  --frost-500: #1a8cff;
+  --frost-400: #40a6ff;
+}
+
+html, body {
+  background-color: var(--fog-900);
+}
+
+.text-fog-100,
+.text-fog-200,
+.text-fog-300 {
+  color: #f2f7ff;
+}
+
+.bg-fog-900,
+.bg-fog-800,
+.bg-fog-700 {
+  background: rgba(8, 15, 25, 0.95);
+}
+
+.bg-frost-500,
+.bg-frost-400 {
+  background: linear-gradient(135deg, var(--frost-500), var(--frost-400));
+}
+
+.border-fog-700,
+.border-fog-800 {
+  border-color: rgba(130, 154, 177, 0.15);
+}
+
+.border-frost-500,
+.border-frost-400 {
+  border-color: rgba(26, 140, 255, 0.35);
+}
+
+.shadow-xl {
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
