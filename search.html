@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://heartfelt-figolla-9118ae.netlify.app/ads-widget.js"></script>
+<title>搜索筛选-亚洲精选视频</title>
+<meta name="description" content="亚洲精选视频搜索筛选页面，可按标题、地区、类型、年份和关键词查找视频片单。">
+<meta name="keywords" content="亚洲精选视频,亚洲视频片单,分类内容,亚洲视频,精选视频,热门视频,视频片库,搜索筛选">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="亚洲精选视频">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">
+                <strong>亚洲精选视频</strong>
+                <small>片单合集 · 持续更新</small>
+            </span>
+        </a>
+        <nav class="desktop-nav">
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类</a>
+            <a href="rank.html">热播榜</a>
+                    <a href="category/selected-videos.html">精选视频</a>
+                    <a href="category/asia-playlist.html">亚洲片单</a>
+                    <a href="category/popular-content.html">热门内容</a>
+                    <a href="category/movie-collection.html">电影合集</a>
+                    <a href="category/series-updates.html">剧集更新</a>
+        </nav>
+        <form class="top-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开导航">☰</button>
+    </div>
+    <div class="mobile-panel">
+        <form class="mobile-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类总览</a>
+            <a href="rank.html">热播榜</a>
+            <a href="search.html">搜索筛选</a>
+                    <a href="category/selected-videos.html">精选视频</a>
+                    <a href="category/asia-playlist.html">亚洲片单</a>
+                    <a href="category/popular-content.html">热门内容</a>
+                    <a href="category/movie-collection.html">电影合集</a>
+                    <a href="category/series-updates.html">剧集更新</a>
+        </nav>
+    </div>
+</header>
+<main class="page-main">
+    <section class="container page-hero">
+        <p class="eyebrow">Search</p>
+        <h1>搜索筛选</h1>
+        <p>输入标题、地区、类型、年份或关键词，快速查找站内视频内容。</p>
+    </section>
+    <section class="container search-panel">
+        <form class="search-form-large" data-search-form>
+            <input type="search" name="q" data-search-input placeholder="搜索影片标题、地区、题材..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <div class="search-selects">
+            <select data-search-year>
+                <option value="">全部年份</option>
+            </select>
+            <select data-search-type>
+                <option value="">全部类型</option>
+            </select>
+        </div>
+    </section>
+    <section class="container search-results" data-search-results></section>
+</main>
+<script src="assets/js/search-index.js"></script>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <div class="footer-logo">亚洲精选视频</div>
+            <p>亚洲精选视频页面展示站内精选视频条目，按类型和更新时间保持有序整理。</p>
+        </div>
+        <div>
+            <h3>快速导航</h3>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="categories.html">分类总览</a></li>
+                <li><a href="rank.html">热播榜</a></li>
+                <li><a href="search.html">搜索筛选</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>热门分类</h3>
+            <ul>
+                    <li><a href="category/selected-videos.html">精选视频</a></li>
+                    <li><a href="category/asia-playlist.html">亚洲片单</a></li>
+                    <li><a href="category/popular-content.html">热门内容</a></li>
+                    <li><a href="category/movie-collection.html">电影合集</a></li>
+                    <li><a href="category/series-updates.html">剧集更新</a></li>
+                    <li><a href="category/category-picks.html">分类推荐</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>片库关键词</h3>
+            <p>亚洲视频片单、精选视频、热门视频、分类内容、视频片库。</p>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 亚洲精选视频 · 内容按类型与年份有序整理</div>
+</footer>
+<script src="assets/js/main.js"></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5033714,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5033714&101" alt="unique visitors counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+</html>
